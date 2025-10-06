@@ -1,0 +1,746 @@
+0, 86, CPU burst
+86, 1, switch to kernel mode
+87, 10, context saved
+97, 1, find vector 9 in memory position 0x0024
+98, 1, load address 0X036C into the PC
+99, 61, CPU burst
+160, 1, switch to kernel mode
+161, 10, context saved
+171, 1, find vector 9 in memory position 0x0024
+172, 1, load address 0X036C into the PC
+173, 40, ISR END_IO 'execution' 
+213, 40, ISR END_IO 'execution' 
+253, 40, ISR END_IO 'execution' 
+293, 40, ISR END_IO 'execution' 
+333, 40, ISR END_IO 'execution' 
+373, 40, ISR END_IO 'execution' 
+413, 40, ISR END_IO 'execution' 
+453, 40, ISR END_IO 'execution' 
+493, 40, ISR END_IO 'execution' 
+533, 40, ISR END_IO 'execution' 
+573, 40, ISR END_IO 'execution' 
+613, 40, ISR END_IO 'execution' 
+653, 40, ISR END_IO 'execution' 
+693, 40, ISR END_IO 'execution' 
+733, 40, ISR END_IO 'execution' 
+773, 40, ISR END_IO 'execution' 
+813, 40, ISR END_IO 'execution' 
+853, 40, ISR END_IO 'execution' 
+893, 40, ISR END_IO 'execution' 
+933, 40, ISR END_IO 'execution' 
+973, 40, ISR END_IO 'execution' 
+1013, 40, ISR END_IO 'execution' 
+1053, 40, ISR END_IO 'execution' 
+1093, 40, ISR END_IO 'execution' 
+1133, 40, ISR END_IO 'execution' 
+1173, 1, 1, IRET 
+1174, 27, CPU burst
+1201, 1, switch to kernel mode
+1202, 10, context saved
+1212, 1, find vector 17 in memory position 0x0044
+1213, 1, load address 0X05B3 into the PC
+1214, 19, CPU burst
+1233, 1, switch to kernel mode
+1234, 10, context saved
+1244, 1, find vector 17 in memory position 0x0044
+1245, 1, load address 0X05B3 into the PC
+1246, 40, ISR END_IO 'execution' 
+1286, 40, ISR END_IO 'execution' 
+1326, 40, ISR END_IO 'execution' 
+1366, 40, ISR END_IO 'execution' 
+1406, 40, ISR END_IO 'execution' 
+1446, 40, ISR END_IO 'execution' 
+1486, 40, ISR END_IO 'execution' 
+1526, 40, ISR END_IO 'execution' 
+1566, 40, ISR END_IO 'execution' 
+1606, 40, ISR END_IO 'execution' 
+1646, 40, ISR END_IO 'execution' 
+1686, 40, ISR END_IO 'execution' 
+1726, 40, ISR END_IO 'execution' 
+1766, 40, ISR END_IO 'execution' 
+1806, 40, ISR END_IO 'execution' 
+1846, 40, ISR END_IO 'execution' 
+1886, 40, ISR END_IO 'execution' 
+1926, 40, ISR END_IO 'execution' 
+1966, 40, ISR END_IO 'execution' 
+2006, 40, ISR END_IO 'execution' 
+2046, 40, ISR END_IO 'execution' 
+2086, 40, ISR END_IO 'execution' 
+2126, 40, ISR END_IO 'execution' 
+2166, 36, ISR END_IO 'execution' 
+2202, 1, 1, IRET 
+2203, 92, CPU burst
+2295, 1, switch to kernel mode
+2296, 10, context saved
+2306, 1, find vector 8 in memory position 0x0020
+2307, 1, load address 0X06EF into the PC
+2308, 36, CPU burst
+2344, 1, switch to kernel mode
+2345, 10, context saved
+2355, 1, find vector 8 in memory position 0x0020
+2356, 1, load address 0X06EF into the PC
+2357, 40, ISR END_IO 'execution' 
+2397, 40, ISR END_IO 'execution' 
+2437, 40, ISR END_IO 'execution' 
+2477, 32, ISR END_IO 'execution' 
+2509, 1, 1, IRET 
+2510, 19, CPU burst
+2529, 1, switch to kernel mode
+2530, 10, context saved
+2540, 1, find vector 1 in memory position 0x0004
+2541, 1, load address 0X029C into the PC
+2542, 33, CPU burst
+2575, 1, switch to kernel mode
+2576, 10, context saved
+2586, 1, find vector 1 in memory position 0x0004
+2587, 1, load address 0X029C into the PC
+2588, 40, ISR END_IO 'execution' 
+2628, 40, ISR END_IO 'execution' 
+2668, 30, ISR END_IO 'execution' 
+2698, 1, 1, IRET 
+2699, 90, CPU burst
+2789, 1, switch to kernel mode
+2790, 10, context saved
+2800, 1, find vector 20 in memory position 0x0050
+2801, 1, load address 0X07B7 into the PC
+2802, 13, CPU burst
+2815, 1, switch to kernel mode
+2816, 10, context saved
+2826, 1, find vector 20 in memory position 0x0050
+2827, 1, load address 0X07B7 into the PC
+2828, 40, ISR END_IO 'execution' 
+2868, 40, ISR END_IO 'execution' 
+2908, 40, ISR END_IO 'execution' 
+2948, 40, ISR END_IO 'execution' 
+2988, 40, ISR END_IO 'execution' 
+3028, 40, ISR END_IO 'execution' 
+3068, 40, ISR END_IO 'execution' 
+3108, 40, ISR END_IO 'execution' 
+3148, 40, ISR END_IO 'execution' 
+3188, 40, ISR END_IO 'execution' 
+3228, 40, ISR END_IO 'execution' 
+3268, 40, ISR END_IO 'execution' 
+3308, 40, ISR END_IO 'execution' 
+3348, 40, ISR END_IO 'execution' 
+3388, 40, ISR END_IO 'execution' 
+3428, 40, ISR END_IO 'execution' 
+3468, 12, ISR END_IO 'execution' 
+3480, 1, 1, IRET 
+3481, 12, CPU burst
+3493, 1, switch to kernel mode
+3494, 10, context saved
+3504, 1, find vector 13 in memory position 0x0034
+3505, 1, load address 0X06C7 into the PC
+3506, 23, CPU burst
+3529, 1, switch to kernel mode
+3530, 10, context saved
+3540, 1, find vector 13 in memory position 0x0034
+3541, 1, load address 0X06C7 into the PC
+3542, 40, ISR END_IO 'execution' 
+3582, 40, ISR END_IO 'execution' 
+3622, 40, ISR END_IO 'execution' 
+3662, 25, ISR END_IO 'execution' 
+3687, 1, 1, IRET 
+3688, 51, CPU burst
+3739, 1, switch to kernel mode
+3740, 10, context saved
+3750, 1, find vector 10 in memory position 0x0028
+3751, 1, load address 0X07B0 into the PC
+3752, 49, CPU burst
+3801, 1, switch to kernel mode
+3802, 10, context saved
+3812, 1, find vector 10 in memory position 0x0028
+3813, 1, load address 0X07B0 into the PC
+3814, 40, ISR END_IO 'execution' 
+3854, 40, ISR END_IO 'execution' 
+3894, 40, ISR END_IO 'execution' 
+3934, 36, ISR END_IO 'execution' 
+3970, 1, 1, IRET 
+3971, 87, CPU burst
+4058, 1, switch to kernel mode
+4059, 10, context saved
+4069, 1, find vector 5 in memory position 0x0014
+4070, 1, load address 0X048B into the PC
+4071, 55, CPU burst
+4126, 1, switch to kernel mode
+4127, 10, context saved
+4137, 1, find vector 5 in memory position 0x0014
+4138, 1, load address 0X048B into the PC
+4139, 40, ISR END_IO 'execution' 
+4179, 40, ISR END_IO 'execution' 
+4219, 40, ISR END_IO 'execution' 
+4259, 40, ISR END_IO 'execution' 
+4299, 40, ISR END_IO 'execution' 
+4339, 40, ISR END_IO 'execution' 
+4379, 10, ISR END_IO 'execution' 
+4389, 1, 1, IRET 
+4390, 17, CPU burst
+4407, 1, switch to kernel mode
+4408, 10, context saved
+4418, 1, find vector 3 in memory position 0x000C
+4419, 1, load address 0X042B into the PC
+4420, 66, CPU burst
+4486, 1, switch to kernel mode
+4487, 10, context saved
+4497, 1, find vector 3 in memory position 0x000C
+4498, 1, load address 0X042B into the PC
+4499, 40, ISR END_IO 'execution' 
+4539, 40, ISR END_IO 'execution' 
+4579, 40, ISR END_IO 'execution' 
+4619, 30, ISR END_IO 'execution' 
+4649, 1, 1, IRET 
+4650, 93, CPU burst
+4743, 1, switch to kernel mode
+4744, 10, context saved
+4754, 1, find vector 20 in memory position 0x0050
+4755, 1, load address 0X07B7 into the PC
+4756, 12, CPU burst
+4768, 1, switch to kernel mode
+4769, 10, context saved
+4779, 1, find vector 20 in memory position 0x0050
+4780, 1, load address 0X07B7 into the PC
+4781, 40, ISR END_IO 'execution' 
+4821, 40, ISR END_IO 'execution' 
+4861, 40, ISR END_IO 'execution' 
+4901, 40, ISR END_IO 'execution' 
+4941, 40, ISR END_IO 'execution' 
+4981, 40, ISR END_IO 'execution' 
+5021, 40, ISR END_IO 'execution' 
+5061, 40, ISR END_IO 'execution' 
+5101, 40, ISR END_IO 'execution' 
+5141, 40, ISR END_IO 'execution' 
+5181, 40, ISR END_IO 'execution' 
+5221, 40, ISR END_IO 'execution' 
+5261, 40, ISR END_IO 'execution' 
+5301, 40, ISR END_IO 'execution' 
+5341, 40, ISR END_IO 'execution' 
+5381, 40, ISR END_IO 'execution' 
+5421, 12, ISR END_IO 'execution' 
+5433, 1, 1, IRET 
+5434, 88, CPU burst
+5522, 1, switch to kernel mode
+5523, 10, context saved
+5533, 1, find vector 14 in memory position 0x0038
+5534, 1, load address 0X0165 into the PC
+5535, 79, CPU burst
+5614, 1, switch to kernel mode
+5615, 10, context saved
+5625, 1, find vector 14 in memory position 0x0038
+5626, 1, load address 0X0165 into the PC
+5627, 40, ISR END_IO 'execution' 
+5667, 40, ISR END_IO 'execution' 
+5707, 40, ISR END_IO 'execution' 
+5747, 40, ISR END_IO 'execution' 
+5787, 40, ISR END_IO 'execution' 
+5827, 40, ISR END_IO 'execution' 
+5867, 40, ISR END_IO 'execution' 
+5907, 40, ISR END_IO 'execution' 
+5947, 40, ISR END_IO 'execution' 
+5987, 40, ISR END_IO 'execution' 
+6027, 40, ISR END_IO 'execution' 
+6067, 40, ISR END_IO 'execution' 
+6107, 40, ISR END_IO 'execution' 
+6147, 40, ISR END_IO 'execution' 
+6187, 40, ISR END_IO 'execution' 
+6227, 36, ISR END_IO 'execution' 
+6263, 1, 1, IRET 
+6264, 93, CPU burst
+6357, 1, switch to kernel mode
+6358, 10, context saved
+6368, 1, find vector 1 in memory position 0x0004
+6369, 1, load address 0X029C into the PC
+6370, 94, CPU burst
+6464, 1, switch to kernel mode
+6465, 10, context saved
+6475, 1, find vector 1 in memory position 0x0004
+6476, 1, load address 0X029C into the PC
+6477, 40, ISR END_IO 'execution' 
+6517, 40, ISR END_IO 'execution' 
+6557, 30, ISR END_IO 'execution' 
+6587, 1, 1, IRET 
+6588, 68, CPU burst
+6656, 1, switch to kernel mode
+6657, 10, context saved
+6667, 1, find vector 3 in memory position 0x000C
+6668, 1, load address 0X042B into the PC
+6669, 58, CPU burst
+6727, 1, switch to kernel mode
+6728, 10, context saved
+6738, 1, find vector 3 in memory position 0x000C
+6739, 1, load address 0X042B into the PC
+6740, 40, ISR END_IO 'execution' 
+6780, 40, ISR END_IO 'execution' 
+6820, 40, ISR END_IO 'execution' 
+6860, 30, ISR END_IO 'execution' 
+6890, 1, 1, IRET 
+6891, 48, CPU burst
+6939, 1, switch to kernel mode
+6940, 10, context saved
+6950, 1, find vector 14 in memory position 0x0038
+6951, 1, load address 0X0165 into the PC
+6952, 87, CPU burst
+7039, 1, switch to kernel mode
+7040, 10, context saved
+7050, 1, find vector 14 in memory position 0x0038
+7051, 1, load address 0X0165 into the PC
+7052, 40, ISR END_IO 'execution' 
+7092, 40, ISR END_IO 'execution' 
+7132, 40, ISR END_IO 'execution' 
+7172, 40, ISR END_IO 'execution' 
+7212, 40, ISR END_IO 'execution' 
+7252, 40, ISR END_IO 'execution' 
+7292, 40, ISR END_IO 'execution' 
+7332, 40, ISR END_IO 'execution' 
+7372, 40, ISR END_IO 'execution' 
+7412, 40, ISR END_IO 'execution' 
+7452, 40, ISR END_IO 'execution' 
+7492, 40, ISR END_IO 'execution' 
+7532, 40, ISR END_IO 'execution' 
+7572, 40, ISR END_IO 'execution' 
+7612, 40, ISR END_IO 'execution' 
+7652, 36, ISR END_IO 'execution' 
+7688, 1, 1, IRET 
+7689, 72, CPU burst
+7761, 1, switch to kernel mode
+7762, 10, context saved
+7772, 1, find vector 8 in memory position 0x0020
+7773, 1, load address 0X06EF into the PC
+7774, 82, CPU burst
+7856, 1, switch to kernel mode
+7857, 10, context saved
+7867, 1, find vector 8 in memory position 0x0020
+7868, 1, load address 0X06EF into the PC
+7869, 40, ISR END_IO 'execution' 
+7909, 40, ISR END_IO 'execution' 
+7949, 40, ISR END_IO 'execution' 
+7989, 32, ISR END_IO 'execution' 
+8021, 1, 1, IRET 
+8022, 99, CPU burst
+8121, 1, switch to kernel mode
+8122, 10, context saved
+8132, 1, find vector 18 in memory position 0x0048
+8133, 1, load address 0X060A into the PC
+8134, 65, CPU burst
+8199, 1, switch to kernel mode
+8200, 10, context saved
+8210, 1, find vector 18 in memory position 0x0048
+8211, 1, load address 0X060A into the PC
+8212, 40, ISR END_IO 'execution' 
+8252, 40, ISR END_IO 'execution' 
+8292, 40, ISR END_IO 'execution' 
+8332, 40, ISR END_IO 'execution' 
+8372, 40, ISR END_IO 'execution' 
+8412, 35, ISR END_IO 'execution' 
+8447, 1, 1, IRET 
+8448, 24, CPU burst
+8472, 1, switch to kernel mode
+8473, 10, context saved
+8483, 1, find vector 12 in memory position 0x0030
+8484, 1, load address 0X03B9 into the PC
+8485, 26, CPU burst
+8511, 1, switch to kernel mode
+8512, 10, context saved
+8522, 1, find vector 12 in memory position 0x0030
+8523, 1, load address 0X03B9 into the PC
+8524, 40, ISR END_IO 'execution' 
+8564, 40, ISR END_IO 'execution' 
+8604, 40, ISR END_IO 'execution' 
+8644, 40, ISR END_IO 'execution' 
+8684, 40, ISR END_IO 'execution' 
+8724, 40, ISR END_IO 'execution' 
+8764, 40, ISR END_IO 'execution' 
+8804, 40, ISR END_IO 'execution' 
+8844, 40, ISR END_IO 'execution' 
+8884, 40, ISR END_IO 'execution' 
+8924, 40, ISR END_IO 'execution' 
+8964, 40, ISR END_IO 'execution' 
+9004, 40, ISR END_IO 'execution' 
+9044, 3, ISR END_IO 'execution' 
+9047, 1, 1, IRET 
+9048, 54, CPU burst
+9102, 1, switch to kernel mode
+9103, 10, context saved
+9113, 1, find vector 11 in memory position 0x002C
+9114, 1, load address 0X01F8 into the PC
+9115, 78, CPU burst
+9193, 1, switch to kernel mode
+9194, 10, context saved
+9204, 1, find vector 11 in memory position 0x002C
+9205, 1, load address 0X01F8 into the PC
+9206, 40, ISR END_IO 'execution' 
+9246, 40, ISR END_IO 'execution' 
+9286, 40, ISR END_IO 'execution' 
+9326, 40, ISR END_IO 'execution' 
+9366, 40, ISR END_IO 'execution' 
+9406, 40, ISR END_IO 'execution' 
+9446, 40, ISR END_IO 'execution' 
+9486, 40, ISR END_IO 'execution' 
+9526, 40, ISR END_IO 'execution' 
+9566, 40, ISR END_IO 'execution' 
+9606, 40, ISR END_IO 'execution' 
+9646, 40, ISR END_IO 'execution' 
+9686, 40, ISR END_IO 'execution' 
+9726, 40, ISR END_IO 'execution' 
+9766, 4, ISR END_IO 'execution' 
+9770, 1, 1, IRET 
+9771, 66, CPU burst
+9837, 1, switch to kernel mode
+9838, 10, context saved
+9848, 1, find vector 15 in memory position 0x003C
+9849, 1, load address 0X0584 into the PC
+9850, 79, CPU burst
+9929, 1, switch to kernel mode
+9930, 10, context saved
+9940, 1, find vector 15 in memory position 0x003C
+9941, 1, load address 0X0584 into the PC
+9942, 40, ISR END_IO 'execution' 
+9982, 40, ISR END_IO 'execution' 
+10022, 40, ISR END_IO 'execution' 
+10062, 40, ISR END_IO 'execution' 
+10102, 40, ISR END_IO 'execution' 
+10142, 40, ISR END_IO 'execution' 
+10182, 40, ISR END_IO 'execution' 
+10222, 40, ISR END_IO 'execution' 
+10262, 40, ISR END_IO 'execution' 
+10302, 40, ISR END_IO 'execution' 
+10342, 40, ISR END_IO 'execution' 
+10382, 16, ISR END_IO 'execution' 
+10398, 1, 1, IRET 
+10399, 82, CPU burst
+10481, 1, switch to kernel mode
+10482, 10, context saved
+10492, 1, find vector 4 in memory position 0x0010
+10493, 1, load address 0X0292 into the PC
+10494, 88, CPU burst
+10582, 1, switch to kernel mode
+10583, 10, context saved
+10593, 1, find vector 4 in memory position 0x0010
+10594, 1, load address 0X0292 into the PC
+10595, 40, ISR END_IO 'execution' 
+10635, 40, ISR END_IO 'execution' 
+10675, 40, ISR END_IO 'execution' 
+10715, 40, ISR END_IO 'execution' 
+10755, 40, ISR END_IO 'execution' 
+10795, 40, ISR END_IO 'execution' 
+10835, 40, ISR END_IO 'execution' 
+10875, 20, ISR END_IO 'execution' 
+10895, 1, 1, IRET 
+10896, 16, CPU burst
+10912, 1, switch to kernel mode
+10913, 10, context saved
+10923, 1, find vector 8 in memory position 0x0020
+10924, 1, load address 0X06EF into the PC
+10925, 26, CPU burst
+10951, 1, switch to kernel mode
+10952, 10, context saved
+10962, 1, find vector 8 in memory position 0x0020
+10963, 1, load address 0X06EF into the PC
+10964, 40, ISR END_IO 'execution' 
+11004, 40, ISR END_IO 'execution' 
+11044, 40, ISR END_IO 'execution' 
+11084, 32, ISR END_IO 'execution' 
+11116, 1, 1, IRET 
+11117, 22, CPU burst
+11139, 1, switch to kernel mode
+11140, 10, context saved
+11150, 1, find vector 18 in memory position 0x0048
+11151, 1, load address 0X060A into the PC
+11152, 95, CPU burst
+11247, 1, switch to kernel mode
+11248, 10, context saved
+11258, 1, find vector 18 in memory position 0x0048
+11259, 1, load address 0X060A into the PC
+11260, 40, ISR END_IO 'execution' 
+11300, 40, ISR END_IO 'execution' 
+11340, 40, ISR END_IO 'execution' 
+11380, 40, ISR END_IO 'execution' 
+11420, 40, ISR END_IO 'execution' 
+11460, 35, ISR END_IO 'execution' 
+11495, 1, 1, IRET 
+11496, 63, CPU burst
+11559, 1, switch to kernel mode
+11560, 10, context saved
+11570, 1, find vector 18 in memory position 0x0048
+11571, 1, load address 0X060A into the PC
+11572, 18, CPU burst
+11590, 1, switch to kernel mode
+11591, 10, context saved
+11601, 1, find vector 18 in memory position 0x0048
+11602, 1, load address 0X060A into the PC
+11603, 40, ISR END_IO 'execution' 
+11643, 40, ISR END_IO 'execution' 
+11683, 40, ISR END_IO 'execution' 
+11723, 40, ISR END_IO 'execution' 
+11763, 40, ISR END_IO 'execution' 
+11803, 35, ISR END_IO 'execution' 
+11838, 1, 1, IRET 
+11839, 50, CPU burst
+11889, 1, switch to kernel mode
+11890, 10, context saved
+11900, 1, find vector 14 in memory position 0x0038
+11901, 1, load address 0X0165 into the PC
+11902, 56, CPU burst
+11958, 1, switch to kernel mode
+11959, 10, context saved
+11969, 1, find vector 14 in memory position 0x0038
+11970, 1, load address 0X0165 into the PC
+11971, 40, ISR END_IO 'execution' 
+12011, 40, ISR END_IO 'execution' 
+12051, 40, ISR END_IO 'execution' 
+12091, 40, ISR END_IO 'execution' 
+12131, 40, ISR END_IO 'execution' 
+12171, 40, ISR END_IO 'execution' 
+12211, 40, ISR END_IO 'execution' 
+12251, 40, ISR END_IO 'execution' 
+12291, 40, ISR END_IO 'execution' 
+12331, 40, ISR END_IO 'execution' 
+12371, 40, ISR END_IO 'execution' 
+12411, 40, ISR END_IO 'execution' 
+12451, 40, ISR END_IO 'execution' 
+12491, 40, ISR END_IO 'execution' 
+12531, 40, ISR END_IO 'execution' 
+12571, 36, ISR END_IO 'execution' 
+12607, 1, 1, IRET 
+12608, 83, CPU burst
+12691, 1, switch to kernel mode
+12692, 10, context saved
+12702, 1, find vector 16 in memory position 0x0040
+12703, 1, load address 0X02DF into the PC
+12704, 23, CPU burst
+12727, 1, switch to kernel mode
+12728, 10, context saved
+12738, 1, find vector 16 in memory position 0x0040
+12739, 1, load address 0X02DF into the PC
+12740, 40, ISR END_IO 'execution' 
+12780, 28, ISR END_IO 'execution' 
+12808, 1, 1, IRET 
+12809, 80, CPU burst
+12889, 1, switch to kernel mode
+12890, 10, context saved
+12900, 1, find vector 15 in memory position 0x003C
+12901, 1, load address 0X0584 into the PC
+12902, 98, CPU burst
+13000, 1, switch to kernel mode
+13001, 10, context saved
+13011, 1, find vector 15 in memory position 0x003C
+13012, 1, load address 0X0584 into the PC
+13013, 40, ISR END_IO 'execution' 
+13053, 40, ISR END_IO 'execution' 
+13093, 40, ISR END_IO 'execution' 
+13133, 40, ISR END_IO 'execution' 
+13173, 40, ISR END_IO 'execution' 
+13213, 40, ISR END_IO 'execution' 
+13253, 40, ISR END_IO 'execution' 
+13293, 40, ISR END_IO 'execution' 
+13333, 40, ISR END_IO 'execution' 
+13373, 40, ISR END_IO 'execution' 
+13413, 40, ISR END_IO 'execution' 
+13453, 16, ISR END_IO 'execution' 
+13469, 1, 1, IRET 
+13470, 77, CPU burst
+13547, 1, switch to kernel mode
+13548, 10, context saved
+13558, 1, find vector 14 in memory position 0x0038
+13559, 1, load address 0X0165 into the PC
+13560, 11, CPU burst
+13571, 1, switch to kernel mode
+13572, 10, context saved
+13582, 1, find vector 14 in memory position 0x0038
+13583, 1, load address 0X0165 into the PC
+13584, 40, ISR END_IO 'execution' 
+13624, 40, ISR END_IO 'execution' 
+13664, 40, ISR END_IO 'execution' 
+13704, 40, ISR END_IO 'execution' 
+13744, 40, ISR END_IO 'execution' 
+13784, 40, ISR END_IO 'execution' 
+13824, 40, ISR END_IO 'execution' 
+13864, 40, ISR END_IO 'execution' 
+13904, 40, ISR END_IO 'execution' 
+13944, 40, ISR END_IO 'execution' 
+13984, 40, ISR END_IO 'execution' 
+14024, 40, ISR END_IO 'execution' 
+14064, 40, ISR END_IO 'execution' 
+14104, 40, ISR END_IO 'execution' 
+14144, 40, ISR END_IO 'execution' 
+14184, 36, ISR END_IO 'execution' 
+14220, 1, 1, IRET 
+14221, 61, CPU burst
+14282, 1, switch to kernel mode
+14283, 10, context saved
+14293, 1, find vector 14 in memory position 0x0038
+14294, 1, load address 0X0165 into the PC
+14295, 34, CPU burst
+14329, 1, switch to kernel mode
+14330, 10, context saved
+14340, 1, find vector 14 in memory position 0x0038
+14341, 1, load address 0X0165 into the PC
+14342, 40, ISR END_IO 'execution' 
+14382, 40, ISR END_IO 'execution' 
+14422, 40, ISR END_IO 'execution' 
+14462, 40, ISR END_IO 'execution' 
+14502, 40, ISR END_IO 'execution' 
+14542, 40, ISR END_IO 'execution' 
+14582, 40, ISR END_IO 'execution' 
+14622, 40, ISR END_IO 'execution' 
+14662, 40, ISR END_IO 'execution' 
+14702, 40, ISR END_IO 'execution' 
+14742, 40, ISR END_IO 'execution' 
+14782, 40, ISR END_IO 'execution' 
+14822, 40, ISR END_IO 'execution' 
+14862, 40, ISR END_IO 'execution' 
+14902, 40, ISR END_IO 'execution' 
+14942, 36, ISR END_IO 'execution' 
+14978, 1, 1, IRET 
+14979, 32, CPU burst
+15011, 1, switch to kernel mode
+15012, 10, context saved
+15022, 1, find vector 7 in memory position 0x001C
+15023, 1, load address 0X00BD into the PC
+15024, 69, CPU burst
+15093, 1, switch to kernel mode
+15094, 10, context saved
+15104, 1, find vector 7 in memory position 0x001C
+15105, 1, load address 0X00BD into the PC
+15106, 40, ISR END_IO 'execution' 
+15146, 40, ISR END_IO 'execution' 
+15186, 40, ISR END_IO 'execution' 
+15226, 40, ISR END_IO 'execution' 
+15266, 40, ISR END_IO 'execution' 
+15306, 40, ISR END_IO 'execution' 
+15346, 25, ISR END_IO 'execution' 
+15371, 1, 1, IRET 
+15372, 79, CPU burst
+15451, 1, switch to kernel mode
+15452, 10, context saved
+15462, 1, find vector 20 in memory position 0x0050
+15463, 1, load address 0X07B7 into the PC
+15464, 41, CPU burst
+15505, 1, switch to kernel mode
+15506, 10, context saved
+15516, 1, find vector 20 in memory position 0x0050
+15517, 1, load address 0X07B7 into the PC
+15518, 40, ISR END_IO 'execution' 
+15558, 40, ISR END_IO 'execution' 
+15598, 40, ISR END_IO 'execution' 
+15638, 40, ISR END_IO 'execution' 
+15678, 40, ISR END_IO 'execution' 
+15718, 40, ISR END_IO 'execution' 
+15758, 40, ISR END_IO 'execution' 
+15798, 40, ISR END_IO 'execution' 
+15838, 40, ISR END_IO 'execution' 
+15878, 40, ISR END_IO 'execution' 
+15918, 40, ISR END_IO 'execution' 
+15958, 40, ISR END_IO 'execution' 
+15998, 40, ISR END_IO 'execution' 
+16038, 40, ISR END_IO 'execution' 
+16078, 40, ISR END_IO 'execution' 
+16118, 40, ISR END_IO 'execution' 
+16158, 12, ISR END_IO 'execution' 
+16170, 1, 1, IRET 
+16171, 63, CPU burst
+16234, 1, switch to kernel mode
+16235, 10, context saved
+16245, 1, find vector 7 in memory position 0x001C
+16246, 1, load address 0X00BD into the PC
+16247, 27, CPU burst
+16274, 1, switch to kernel mode
+16275, 10, context saved
+16285, 1, find vector 7 in memory position 0x001C
+16286, 1, load address 0X00BD into the PC
+16287, 40, ISR END_IO 'execution' 
+16327, 40, ISR END_IO 'execution' 
+16367, 40, ISR END_IO 'execution' 
+16407, 40, ISR END_IO 'execution' 
+16447, 40, ISR END_IO 'execution' 
+16487, 40, ISR END_IO 'execution' 
+16527, 25, ISR END_IO 'execution' 
+16552, 1, 1, IRET 
+16553, 85, CPU burst
+16638, 1, switch to kernel mode
+16639, 10, context saved
+16649, 1, find vector 11 in memory position 0x002C
+16650, 1, load address 0X01F8 into the PC
+16651, 68, CPU burst
+16719, 1, switch to kernel mode
+16720, 10, context saved
+16730, 1, find vector 11 in memory position 0x002C
+16731, 1, load address 0X01F8 into the PC
+16732, 40, ISR END_IO 'execution' 
+16772, 40, ISR END_IO 'execution' 
+16812, 40, ISR END_IO 'execution' 
+16852, 40, ISR END_IO 'execution' 
+16892, 40, ISR END_IO 'execution' 
+16932, 40, ISR END_IO 'execution' 
+16972, 40, ISR END_IO 'execution' 
+17012, 40, ISR END_IO 'execution' 
+17052, 40, ISR END_IO 'execution' 
+17092, 40, ISR END_IO 'execution' 
+17132, 40, ISR END_IO 'execution' 
+17172, 40, ISR END_IO 'execution' 
+17212, 40, ISR END_IO 'execution' 
+17252, 40, ISR END_IO 'execution' 
+17292, 4, ISR END_IO 'execution' 
+17296, 1, 1, IRET 
+17297, 23, CPU burst
+17320, 1, switch to kernel mode
+17321, 10, context saved
+17331, 1, find vector 14 in memory position 0x0038
+17332, 1, load address 0X0165 into the PC
+17333, 22, CPU burst
+17355, 1, switch to kernel mode
+17356, 10, context saved
+17366, 1, find vector 14 in memory position 0x0038
+17367, 1, load address 0X0165 into the PC
+17368, 40, ISR END_IO 'execution' 
+17408, 40, ISR END_IO 'execution' 
+17448, 40, ISR END_IO 'execution' 
+17488, 40, ISR END_IO 'execution' 
+17528, 40, ISR END_IO 'execution' 
+17568, 40, ISR END_IO 'execution' 
+17608, 40, ISR END_IO 'execution' 
+17648, 40, ISR END_IO 'execution' 
+17688, 40, ISR END_IO 'execution' 
+17728, 40, ISR END_IO 'execution' 
+17768, 40, ISR END_IO 'execution' 
+17808, 40, ISR END_IO 'execution' 
+17848, 40, ISR END_IO 'execution' 
+17888, 40, ISR END_IO 'execution' 
+17928, 40, ISR END_IO 'execution' 
+17968, 36, ISR END_IO 'execution' 
+18004, 1, 1, IRET 
+18005, 29, CPU burst
+18034, 1, switch to kernel mode
+18035, 10, context saved
+18045, 1, find vector 17 in memory position 0x0044
+18046, 1, load address 0X05B3 into the PC
+18047, 99, CPU burst
+18146, 1, switch to kernel mode
+18147, 10, context saved
+18157, 1, find vector 17 in memory position 0x0044
+18158, 1, load address 0X05B3 into the PC
+18159, 40, ISR END_IO 'execution' 
+18199, 40, ISR END_IO 'execution' 
+18239, 40, ISR END_IO 'execution' 
+18279, 40, ISR END_IO 'execution' 
+18319, 40, ISR END_IO 'execution' 
+18359, 40, ISR END_IO 'execution' 
+18399, 40, ISR END_IO 'execution' 
+18439, 40, ISR END_IO 'execution' 
+18479, 40, ISR END_IO 'execution' 
+18519, 40, ISR END_IO 'execution' 
+18559, 40, ISR END_IO 'execution' 
+18599, 40, ISR END_IO 'execution' 
+18639, 40, ISR END_IO 'execution' 
+18679, 40, ISR END_IO 'execution' 
+18719, 40, ISR END_IO 'execution' 
+18759, 40, ISR END_IO 'execution' 
+18799, 40, ISR END_IO 'execution' 
+18839, 40, ISR END_IO 'execution' 
+18879, 40, ISR END_IO 'execution' 
+18919, 40, ISR END_IO 'execution' 
+18959, 40, ISR END_IO 'execution' 
+18999, 40, ISR END_IO 'execution' 
+19039, 40, ISR END_IO 'execution' 
+19079, 36, ISR END_IO 'execution' 
+19115, 1, 1, IRET 
+19116, 46, CPU burst

@@ -1,0 +1,37 @@
+0, 50, CPU burst
+50, 1, switch to kernel mode
+51, 10, context saved
+61, 1, find vector 5 in memory position 0x000A
+62, 1, load address 0X048B into the PC
+63, 100, CPU burst
+163, 1, switch to kernel mode
+164, 10, context saved
+174, 1, find vector 5 in memory position 0x000A
+175, 1, load address 0X048B into the PC
+176, 40, ISR END_IO 'execution' 
+216, 40, ISR END_IO 'execution' 
+256, 40, ISR END_IO 'execution' 
+296, 40, ISR END_IO 'execution' 
+336, 40, ISR END_IO 'execution' 
+376, 40, ISR END_IO 'execution' 
+416, 10, ISR END_IO 'execution' 
+426, 1, 1, IRET 
+427, 40, CPU burst
+467, 1, switch to kernel mode
+468, 10, context saved
+478, 1, find vector 7 in memory position 0x000E
+479, 1, load address 0X00BD into the PC
+480, 80, CPU burst
+560, 1, switch to kernel mode
+561, 10, context saved
+571, 1, find vector 7 in memory position 0x000E
+572, 1, load address 0X00BD into the PC
+573, 40, ISR END_IO 'execution' 
+613, 40, ISR END_IO 'execution' 
+653, 40, ISR END_IO 'execution' 
+693, 40, ISR END_IO 'execution' 
+733, 40, ISR END_IO 'execution' 
+773, 40, ISR END_IO 'execution' 
+813, 25, ISR END_IO 'execution' 
+838, 1, 1, IRET 
+839, 60, CPU burst

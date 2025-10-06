@@ -125,18 +125,21 @@ std::pair<std::string, int> intr_boilerplate(int current_time, int intr_num, int
     return std::make_pair(execution, current_time);
 }
 
-
 void write_output(std::string execution) {
-    std::ofstream output_file("execution.txt");
+    // make sure the output folder exists
+    system("mkdir -p output_files");
+    // open file inside the folder
+    std::ofstream output_file("output_files/execution.txt");
 
     if (output_file.is_open()) {
         output_file << execution;
         output_file.close();  // Close the file when done
-        std::cout << "File content overwritten successfully." << std::endl;
+        std::cout << "File content written successfully to output_files/execution.txt" << std::endl;
     } else {
-        std::cerr << "Error opening file!" << std::endl;
+        std::cerr << "Error opening output_files/execution.txt!" << std::endl;
     }
 
-    std::cout << "Output generated in execution.txt" << std::endl;
+    std::cout << "Output generated in output_files/execution.txt" << std::endl;
 }
+
 #endif

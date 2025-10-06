@@ -1,0 +1,80 @@
+0, 95, CPU burst
+95, 1, switch to kernel mode
+96, 30, context saved
+126, 1, find vector 6 in memory position 0x000C
+127, 1, load address 0X0639 into the PC
+128, 26, CPU burst
+154, 1, switch to kernel mode
+155, 30, context saved
+185, 1, find vector 6 in memory position 0x000C
+186, 1, load address 0X0639 into the PC
+187, 40, ISR END_IO 'execution' 
+227, 40, ISR END_IO 'execution' 
+267, 40, ISR END_IO 'execution' 
+307, 40, ISR END_IO 'execution' 
+347, 40, ISR END_IO 'execution' 
+387, 11, ISR END_IO 'execution' 
+398, 1, 1, IRET 
+399, 72, CPU burst
+471, 1, switch to kernel mode
+472, 30, context saved
+502, 1, find vector 17 in memory position 0x0022
+503, 1, load address 0X05B3 into the PC
+504, 50, CPU burst
+554, 1, switch to kernel mode
+555, 30, context saved
+585, 1, find vector 17 in memory position 0x0022
+586, 1, load address 0X05B3 into the PC
+587, 40, ISR END_IO 'execution' 
+627, 40, ISR END_IO 'execution' 
+667, 40, ISR END_IO 'execution' 
+707, 40, ISR END_IO 'execution' 
+747, 40, ISR END_IO 'execution' 
+787, 40, ISR END_IO 'execution' 
+827, 40, ISR END_IO 'execution' 
+867, 40, ISR END_IO 'execution' 
+907, 40, ISR END_IO 'execution' 
+947, 40, ISR END_IO 'execution' 
+987, 40, ISR END_IO 'execution' 
+1027, 40, ISR END_IO 'execution' 
+1067, 40, ISR END_IO 'execution' 
+1107, 40, ISR END_IO 'execution' 
+1147, 40, ISR END_IO 'execution' 
+1187, 40, ISR END_IO 'execution' 
+1227, 40, ISR END_IO 'execution' 
+1267, 40, ISR END_IO 'execution' 
+1307, 40, ISR END_IO 'execution' 
+1347, 40, ISR END_IO 'execution' 
+1387, 40, ISR END_IO 'execution' 
+1427, 40, ISR END_IO 'execution' 
+1467, 40, ISR END_IO 'execution' 
+1507, 36, ISR END_IO 'execution' 
+1543, 1, 1, IRET 
+1544, 88, CPU burst
+1632, 1, switch to kernel mode
+1633, 30, context saved
+1663, 1, find vector 14 in memory position 0x001C
+1664, 1, load address 0X0165 into the PC
+1665, 31, CPU burst
+1696, 1, switch to kernel mode
+1697, 30, context saved
+1727, 1, find vector 14 in memory position 0x001C
+1728, 1, load address 0X0165 into the PC
+1729, 40, ISR END_IO 'execution' 
+1769, 40, ISR END_IO 'execution' 
+1809, 40, ISR END_IO 'execution' 
+1849, 40, ISR END_IO 'execution' 
+1889, 40, ISR END_IO 'execution' 
+1929, 40, ISR END_IO 'execution' 
+1969, 40, ISR END_IO 'execution' 
+2009, 40, ISR END_IO 'execution' 
+2049, 40, ISR END_IO 'execution' 
+2089, 40, ISR END_IO 'execution' 
+2129, 40, ISR END_IO 'execution' 
+2169, 40, ISR END_IO 'execution' 
+2209, 40, ISR END_IO 'execution' 
+2249, 40, ISR END_IO 'execution' 
+2289, 40, ISR END_IO 'execution' 
+2329, 36, ISR END_IO 'execution' 
+2365, 1, 1, IRET 
+2366, 52, CPU burst

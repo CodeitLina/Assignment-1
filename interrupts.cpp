@@ -22,7 +22,6 @@ int main(int argc, char** argv) {
     int current_time = 0;
     const int context_save_time = 10; // time taken to save context
     const int isr_activity_time = 40; // time taken for each chunk of ISR activity
-    //int IO_time = 0.1; // time taken for IO operation
 
  
     /******************************************************************/
@@ -30,7 +29,6 @@ int main(int argc, char** argv) {
     //parse each line of the input trace file
     while(std::getline(input_file, trace)) {
         auto [activity, duration_intr] = parse_trace(trace);
-    
 
         /******************ADD YOUR SIMULATION CODE HERE*************************/
      if (activity == "CPU") {

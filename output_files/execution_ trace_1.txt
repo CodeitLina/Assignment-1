@@ -1,0 +1,65 @@
+0, 75, CPU burst
+75, 1, switch to kernel mode
+76, 30, context saved
+106, 1, find vector 5 in memory position 0x000A
+107, 1, load address 0X048B into the PC
+108, 84, CPU burst
+192, 1, switch to kernel mode
+193, 30, context saved
+223, 1, find vector 5 in memory position 0x000A
+224, 1, load address 0X048B into the PC
+225, 200, ISR END_IO 'execution' 
+425, 50, ISR END_IO 'execution' 
+475, 1, 1, IRET 
+476, 22, CPU burst
+498, 1, switch to kernel mode
+499, 30, context saved
+529, 1, find vector 10 in memory position 0x0014
+530, 1, load address 0X07B0 into the PC
+531, 80, CPU burst
+611, 1, switch to kernel mode
+612, 30, context saved
+642, 1, find vector 10 in memory position 0x0014
+643, 1, load address 0X07B0 into the PC
+644, 156, ISR END_IO 'execution' 
+800, 1, 1, IRET 
+801, 79, CPU burst
+880, 1, switch to kernel mode
+881, 30, context saved
+911, 1, find vector 6 in memory position 0x000C
+912, 1, load address 0X0639 into the PC
+913, 68, CPU burst
+981, 1, switch to kernel mode
+982, 30, context saved
+1012, 1, find vector 6 in memory position 0x000C
+1013, 1, load address 0X0639 into the PC
+1014, 200, ISR END_IO 'execution' 
+1214, 11, ISR END_IO 'execution' 
+1225, 1, 1, IRET 
+1226, 71, CPU burst
+1297, 1, switch to kernel mode
+1298, 30, context saved
+1328, 1, find vector 4 in memory position 0x0008
+1329, 1, load address 0X0292 into the PC
+1330, 97, CPU burst
+1427, 1, switch to kernel mode
+1428, 30, context saved
+1458, 1, find vector 4 in memory position 0x0008
+1459, 1, load address 0X0292 into the PC
+1460, 200, ISR END_IO 'execution' 
+1660, 100, ISR END_IO 'execution' 
+1760, 1, 1, IRET 
+1761, 84, CPU burst
+1845, 1, switch to kernel mode
+1846, 30, context saved
+1876, 1, find vector 7 in memory position 0x000E
+1877, 1, load address 0X00BD into the PC
+1878, 38, CPU burst
+1916, 1, switch to kernel mode
+1917, 30, context saved
+1947, 1, find vector 7 in memory position 0x000E
+1948, 1, load address 0X00BD into the PC
+1949, 200, ISR END_IO 'execution' 
+2149, 65, ISR END_IO 'execution' 
+2214, 1, 1, IRET 
+2215, 90, CPU burst
